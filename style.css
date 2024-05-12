@@ -1,0 +1,19 @@
+/*portafolio*/
+
+.portafolio img{
+   width: 224px;   
+   height: 220px;
+}
+
+.portafolio {
+    color: #0098ef;
+    font-family: poppins;
+    font-weight: 600;
+    size: 28px;
+    line-height: 42px;
+}
+.imag-back {
+    background-image: url(img/Rectangle\ 4.png);
+    bottom: #d1ffa2;
+    margin-bottom: 30px;
+} 
