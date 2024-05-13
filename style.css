@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #fffffff7;
+    display: flex;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+  
+section {
+    padding: 35px;
+}
+  
+h1 {
+    margin-top: 30px;
+    margin-left: 40%;
+    font-size: 65px;
+}
+h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+    text-align: left;
+    color: #0098ef;
+}
+  
+p {
+    color: #fff;
+    line-height: 24px;
+    margin-bottom: 20px;
+}
+  
+/* principal */
+.main-container {
+    width: 960px;
+    border: solid red;
+}
