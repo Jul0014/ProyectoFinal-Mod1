@@ -4,44 +4,170 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <title>Proyecto Módulo 1</title>
 </head>
+
 <body>
-        <main class="container">
-        <section class="about">
-        </section>  
-        <section class="portafolio">
-        <h2>Portafolio</h2>
-        <figure>
-             <div>  
-                <img class="grande" src="/img/Rectangle 4.png" alt="" >
-                <img class="grande" src="./img/portafolio-img2.png" alt="">
-                <img class="grande" src="./img/Rectangle 5.png" alt="">
-                <img class="grande" src="./img/Rectangle 7.png" alt="">
+    <header class="header">
+        <div class="logo">
+            <img src="./img/logo.png" alt="">
+        </div>
+        <nav class="nav">
+            <ul>
+                <li><a href="#about">Sobre mí</a></li>
+                <li><a href="#portafolio">Portafolio</a></li>
+                <li><a href="#services">Servicios</a></li>
+                <li><a href="#blog">Blog</a></li>
+                <li><a href="#contact">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main class="main-container">
+        <section  id="about" class="about">
+            <div class="text-about">
+                <div class="container">
+                    <div class="text-column">
+                        <h3>Hola, Hello</h3>
+                        <div class="title">Soy Sebastian Yabiku</div>
+                        <div class="subtitle">Front end Developer</div>
+                        <div class="description">
+                            <div class="rectangulo"></div>
+                            <p>
+                                Gracias por visitar mi página, encontrarás información sobre mí, mi experiencia, los servicios que ofrezco, algunas cosas de las que me gusta investigar y podrás contactarme y contarme sobre ti.
+                            </p>
+                            
+                        </div>
+                        <a href="#" class="download-cv">Descargar CV</a>
+                        <a href="#" class="download-cv">Descargar CV</a>
+                    </div>
+                    <div class="image-column">
+                        <img src="img/Ellipse 1.png" alt="Foto de Sebastian Yabiku" class="profile-pic">
+                    </div>
+                    <div class="social-column">
+                        <div class="social-icons">
+                            <img src="img/socia-share.png" alt="Redes Sociales">
+                        </div>
+                    </div>
+                </div>
+                <div class="down-arrow">⬇️</div>
             </div>
-            <div class="img-back">
-                <button>HTML</button> <button>CSS</button><button>SEO</button>
-                <div><button>Javascript</button><button>Microform</button></div>
-            </div>
-                      
-        </figure>
-        <figure>
-            <img src="./img/Rectangle 8.png" alt="">
-            <img src="./img/Rectangle 10 (1).png" alt="">
-            <img src="./img/Rectangle 9.png" alt="">
-            <img src="./img/Rectangle 11.png" alt="">
-        </figure>
-            
         </section>  
-        <section class="services">
-            
+        <section id="portafolio" class="portafolio">
+            <h2>PORTAFOLIO</h2>
+            <div class="imagenes">
+              <div class="imagen-especial">
+              <div class="overlay">
+                <h3>Web APP</h3>
+                <p>Aplicacion app para cliente USA.</p>
+                <div class="botones">
+                  <button>HTML5</button>
+                  <button>CSS3</button>
+                  <button>SEO</button>
+                  <button>JavaScript</button>
+                  <button>Microform</button>
+                </div>
+              </div>
+              <img src="img/Rectangle 4.png" alt="Imagen Especial">
+            </div>
+
+               <img src="img/portafolio-img2.png" alt="">
+                <img src="img/Rectangle 5.png" alt="">
+                <img src="img/Rectangle 7.png" alt="">
+                <img src="img/Rectangle 8.png" alt="">
+                <img src="img/Rectangle 10 (1).png" alt="">
+                <img src="img/Rectangle 9.png" alt="">
+                <img src="img/Rectangle 11.png" alt="">
+            </div>    
+        </section>  
+        <section id="services" class="services">
+            <h2>SERVICES</h2>
+            <div class="container">
+                <div class="mini-container">
+                    <i class="fa fa-paint-brush"></i>
+                    <span>UX/UI</span>
+                </div>
+                <div class="mini-container">
+                    <i class="fa fa-desktop"></i>
+                    <span>FrontEnd</span>
+                </div>
+                <div class="mini-container">
+                    <i class="fa fa-database"></i>
+                    <span>BackEnd</span>
+                </div>
+                <div class="mini-container">
+                    <i class="fa fa-mobile"></i>
+                    <span>Mobile</span>
+                </div>
+                <div class="mini-container">
+                    <i class="fa fa-user"></i>
+                    <span>Persona</span>
+                </div>
+                <div class="mini-container">
+                    <i class="fa fa-cloud"></i>
+                    <span>Nube</span>
+                </div>
+            </div>
         </section>
-        <section class="blog">
+        <section id="blog" class="blog">
             
         </section>    
-        <section class="contact">
-            
+        <section id="contact" class="contact">
+            <h2>CONTACT</h2>
+            <div class="contact-formulario">
+                <div class="fila">
+                    <input type="text" placeholder="Nombre" />
+                    <input type="tel" placeholder="Teléfono" />
+                </div>
+                <div class="fila">
+                    <select name="tipo-proyecto" id="tipo-proyecto">
+                        <option disabled selected>Tipo de proyecto</option>
+                        <option value="Tipo A">Tipo A</option>
+                        <option value="Tipo B">Tipo B</option>
+                        <option value="Tipo C">Tipo C</option>
+                    </select>
+                    <select name="presupuesto" id="presupuesto">
+                        <option disabled selected>Presupuesto</option>
+                        <option value="Alto">Alto</option>
+                        <option value="Medio">Medio</option>
+                        <option value="Bajo">Bajo</option>
+                    </select>
+                </div>
+                <div class="fila">
+                    <textarea placeholder="Cuéntanos más"></textarea>
+                </div>
+                <button>ENVIAR</button>
         </section>  
     </main>
+    <footer class="footer">
+        <div class="footer-column">
+            <div class="logo">
+                <img src="./img/logo.png" alt="">
+            </div>
+        </div>
+        <div class="footer-column center-text">
+            <p>GRACIAS POR VISITARNOS</p>
+        </div>
+        <div class="footer-column">
+            <div class="social-icons">
+                <i class="fab fa-linkedin"></i>
+                <i class="fab fa-github"></i>
+                <i class="fab fa-facebook"></i>
+                <i class="fas fa-envelope"></i>
+                <i class="fab fa-whatsapp"></i>
+            </div>
+        </div>
+        <div class="footer-column"></div>
+        <nav class="nav">
+            <ul>
+                <li><a href="#about">Sobre mí</a></li>
+                <li><a href="#portafolio">Portafolio</a></li>
+                <li><a href="#services">Servicios</a></li>
+                <li><a href="#blog">Blog</a></li>
+                <li><a href="#contact">Contacto</a></li>
+            </ul>
+        </nav>
+        <div class="footer-column"></div>
+    </footer>
 </body>
 </html>
