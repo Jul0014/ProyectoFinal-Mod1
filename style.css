@@ -215,6 +215,77 @@ h3{
     color: white; 
 }
 
+/* Blog */
+.blog{
+    margin: 90px 10px;
+}
+.blog-galeria {
+    display: flex;
+    justify-content: space-between; /* Distribuye las columnas equitativamente */
+    width: 100%;
+    margin-top: 50px; /* Ajusta el margen superior según sea necesario */
+}
+
+.columna1-blog,
+.columna3-blog {
+    margin: 10px;
+    flex: 1; /* Las tres columnas ocupan el mismo ancho */
+    padding: 0 10px; /* Agrega un poco de espacio alrededor de cada columna */
+}
+
+.columna1-blog p,
+.columna3-blog p {
+    margin: 10px 0;
+}
+
+.columna2-blog{
+    width: 30%;
+    margin: 10px;
+}
+
+.imagen-corto img{
+    width: 150px;
+}
+
+.columna1-blog img,
+.columna3-blog img,
+.imagen-corto img {
+    width: 100%; /* Las imágenes ocupan todo el ancho de su contenedor */
+    height: auto; /* Mantiene la proporción de la imagen */
+}
+
+.imagen-corto img{
+    width: 150px;
+}
+
+.robot-blog {
+    display: flex;
+}
+
+.robot-blog > div {
+    margin-bottom: 20px; /* Espacio entre cada elemento robot-blog */
+}
+
+.robot-blog h4,
+.robot-blog p,
+.robot-blog a {
+    margin-bottom: 10px; /* Espacio entre los elementos dentro de robot-blog */
+}
+
+.robot-blog a {
+    color: #0098ef; /* Color del enlace */
+    text-decoration: none; /* Quita la subrayado predeterminado */
+    transition: color 0.3s; /* Agrega una transición suave al color del enlace */
+}
+
+.robot-blog a:hover {
+    color: #0077cc; /* Cambia el color al pasar el mouse */
+}
+
+.blog p{
+    font-size: 14px;
+}
+
 
 /* Contacto */
 
