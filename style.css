@@ -81,10 +81,9 @@ h3{
 
 .container {
     display: flex;
-    align-items: center;
     max-width: 1000px;
     margin: 0 auto;
-    padding: 20px;
+    padding: 20px 20px 0 20px;
 }
 .text-column {
     flex: 1;
@@ -109,11 +108,17 @@ h3{
     display: flex;
 }
 
+.description p{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 500;
+    width: 351px;
+}
+
 .rectangulo{
     height: 104px;
     width: 10px;
     margin-right: 10px;
-    background-color: #1fcf90;
+    background-color: #80E7CA;
 }
 
 .download-cv {
@@ -136,16 +141,24 @@ h3{
     margin-top: 20px;
 }
 .social-column {
-    padding: 20px;
+    padding-top: 0;
 }
 .social-icons img {
-    width: 85px;
-    height: auto;
+    display: flex;
+    justify-content: flex-start; /* Align icons to the start */
 }
+
+.fa-linkedin{
+    color: #0098ef;
+}
+
+.fa-whatsapp{
+    color: green;
+}
+
 .down-arrow {
     font-size: 2em;
     color: #1fcf90;
-    margin-top: 30px;
     text-align: center;
 }
 
@@ -164,6 +177,7 @@ h3{
 .footer-column {
     display: flex;
     align-items: center;
+    padding-top: 10px;
 }
 
 .footer .logo img {
@@ -193,6 +207,15 @@ h3{
 .footer .social-icons {
     font-size: 24px;
     margin-left: auto;
+}
+
+.text-column .social-icons i{
+    font-size: 20px;
+    margin: 5px;
+}
+
+.text-column .social-icons .fa-linkedin{
+    margin: 0 5px 0 20px ;
 }
 
 .footer .social-icons i {
